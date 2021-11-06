@@ -1,0 +1,11 @@
+version: "3.5"
+
+services:
+  py:
+    build:
+      context: .
+    tty: true
+    volumes:
+      - ./tmp/py:/tmp/py
+      - ./py/py36:/usr/local/lib/python3.6/site-packages
+      - ./:/app
