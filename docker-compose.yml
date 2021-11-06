@@ -9,3 +9,4 @@ services:
       - ./tmp/py:/tmp/py
       - ./py/py36:/usr/local/lib/python3.6/site-packages
       - ./:/app
+      # - /usr/local/bin/python /app/py/interpreter

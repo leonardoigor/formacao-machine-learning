@@ -5,5 +5,4 @@ WORKDIR /app
 
 
 
-
 # CMD python ./get-pip.py
